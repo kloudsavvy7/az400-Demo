@@ -11,3 +11,6 @@ Connect-AzAccount -ServicePrincipal -Credential $Credential -Tenant '094c4f1d-3a
 Get-AzResource | select Name
 
 write-output "ADO Demo"
+
+Write-Output "ADO new branch demo"
+

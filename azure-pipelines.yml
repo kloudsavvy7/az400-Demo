@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: : KloudsavvyDevOpsPool
+  name: KloudsavvyDevOpsPool
 
 steps:
 - script: echo Hello, world!

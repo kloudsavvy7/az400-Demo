@@ -11,6 +11,7 @@ trigger:
  paths:
    exclude:
      - azure-pipelines.yml
+     - /*.ps1
 
 resources:
   repositories:

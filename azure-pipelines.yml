@@ -9,7 +9,7 @@ trigger:
 pool:
   name: KloudsavvyDevOpsPool
   demands:
-  - Agent.Name -equals DotnetBuildAgent
+  - Agent.Name -equals JavaBuildAgent
 
 steps:
 - script: echo Hello, world!

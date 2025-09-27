@@ -9,7 +9,7 @@ resources:
   repositories:
   - repository: eShopOnWeb
     type: github
-    name: eShopOnWeb
+    name: kloudsavvy7/eShopOnWeb
     ref: refs/heads/main
     endpoint: github.com_kloudsavvy7
 pool:

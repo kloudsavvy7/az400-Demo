@@ -12,6 +12,7 @@ Get-AzResource | select Name
 
 write-output "ADO Demo"
 
-Write-Output "ADO new branch demo "
+Write-Output "ADO new branch demo"
+
 
 

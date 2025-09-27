@@ -7,4 +7,7 @@
 
 Connect-AzAccount -ServicePrincipal -Credential $Credential -Tenant '094c4f1d-3a4d-4cba-a940-ed572636e781'
 
+
 Get-AzResource | select Name
+
+write-output "ADO Demo"

@@ -12,3 +12,5 @@ Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
     StatusCode = 200
     Body = $body
 })
+
+write-outpu "ADO demo"

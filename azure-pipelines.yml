@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: KloudsavvyDevOpsPool
+  demands:
+  - Agent.Name -equals DotnetBuildAgent
 
 steps:
 - script: echo Hello, world!

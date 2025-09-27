@@ -34,4 +34,4 @@ steps:
       Write-Host "Hello World"
       $files = get-ChildItem -path C:\KloudsavvyTraining -recurse -force
       write-output "Below are the files from given path"
-      write-output $(Build.SourceDirectory)
+      write-output "$(Build.SourceDirectory)""

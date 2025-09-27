@@ -4,7 +4,13 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+ branches:
+   include:
+     - main
+ paths:
+   exclude:
+     - azure-pipelines.yml
+
 resources:
   repositories:
   - repository: eShopOnWeb
